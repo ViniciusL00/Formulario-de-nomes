@@ -99,9 +99,9 @@
 
 3. <h2 align="center">Alterando o conteúdo do parágrafo com textContent: (Parte do desafio).</h2>
 
-Usamos document.getElementById('mensagem') para selecionar o parágrafo com o id mensagem.
+* Usamos document.getElementById('mensagem') para selecionar o parágrafo com o id mensagem.
 
-A propriedade textContent é usada para modificar o conteúdo desse parágrafo. O valor mostrado será a string com os valores de nome e email digitados.
+* A propriedade textContent é usada para modificar o conteúdo desse parágrafo. O valor mostrado será a string com os valores de nome e email digitados.
 
 **Código:**
 
@@ -220,6 +220,24 @@ A propriedade textContent é usada para modificar o conteúdo desse parágrafo. 
 * Agora, vamos capturar a string contendo os números separados por vírgulas, e usar split(',') para dividir essa string em um array de números. Depois, vamos exibir cada número no console.
 
 **Código:**
+
+```    // Capturar a string dos números separados por vírgula```
+
+```    let numeros = document.getElementById('numeros').value;```
+
+```    // Utilizar split() para dividir os números com base na vírgula```
+
+```    let listaNumeros = numeros.split(',');```
+
+```    // Exibir cada número no console```
+
+```    console.log('Os números separados são:');```
+
+```    listaNumeros.forEach(function(numero, index) {```
+
+```        console.log(`Número ${index + 1}: ${numero.trim()}`); // .trim() remove espaços extras```
+
+```      });```
 
 **Explicação da Atualização:**
 
