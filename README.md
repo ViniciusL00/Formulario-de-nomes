@@ -113,5 +113,39 @@ A propriedade textContent é usada para modificar o conteúdo desse parágrafo. 
 ```  let mensagem = document.getElementById('mensagem');```
 
 ```  mensagem.textContent = `Os valores digitados são: Nome - ${nome}, Email - ${email}`;```
-=======
->>>>>>> 3f807143ff49b7bbb2649284ced694e811760021
+
+4. <h2 align="center"> Atualizar o código JavaScript para somar duas variáveis numéricas e exibir no console </h2>
+
+* Declaração das variáveis numéricas:
+
+* As variáveis numero1 e numero2 são definidas com valores 13 e 28.
+
+**Código:**
+
+```    // Declarar duas variáveis númericas para o desafio```
+
+```    let numero1 = 13;```
+
+```    let numero2 = 28;```
+
+* Soma das variáveis:
+
+* A soma das variáveis é feita com a operação var soma = numero1 + numero2;.
+
+**Código:**
+
+```    // Realizar a soma das duas variáveis para o desafio```
+
+```    let soma = numero1 + numero2;```
+
+* Mensagem no console:
+
+* Usamos Template String para formatar a mensagem e exibir a soma no console. A sintaxe para isso é:
+
+**Código:**
+
+```    // Exibir o resultado da soma no console```
+
+```    console.log(`A soma de ${numero1} e ${numero2} é igual a: ${soma}`);```
+
+* Aqui, *${numero1}, ${numero2} e ${soma} são placeholders que serão substituídos pelos valores das variáveis.*
