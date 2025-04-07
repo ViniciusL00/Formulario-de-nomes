@@ -106,13 +106,14 @@ A propriedade textContent é usada para modificar o conteúdo desse parágrafo. 
 
 **Código:**
 
-```id="mensagem">Este texto será atualizado pelo JavaScript.</p> <!-- Parágrafo que será alterado para o desafio -->```
+```<p>id="mensagem">Este texto será atualizado pelo JavaScript.</p> <!-- Parágrafo que será alterado para o desafio -->```
 
 ```   // Modificar o conteúdo do parágrafo com id "mensagem" usando textContent```
 
 ```  let mensagem = document.getElementById('mensagem');```
 
 ```  mensagem.textContent = `Os valores digitados são: Nome - ${nome}, Email - ${email}`;```
+<<<<<<< HEAD
 
 4. <h2 align="center"> Atualizar o código JavaScript para somar duas variáveis numéricas e exibir no console </h2>
 
