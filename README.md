@@ -129,7 +129,7 @@ A propriedade textContent é usada para modificar o conteúdo desse parágrafo. 
 
 * Soma das variáveis:
 
-* A soma das variáveis é feita com a operação var soma = numero1 + numero2;.
+* A soma das variáveis é feita com a operação let soma = numero1 + numero2;.
 
 **Código:**
 
