@@ -95,8 +95,7 @@
 
 * Exibimos os valores no console usando console.log().
 
-* Também mostramos esses valores na página web dentro do elemento <p id="resultados">.
-<<<<<<< HEAD
+* Também mostramos esses valores na página web dentro do elemento `<p id="resultados">`.
 
 3. <h2 align="center">Alterando o conteúdo do parágrafo com textContent: (Parte do desafio)</h2>
 
@@ -113,7 +112,6 @@ A propriedade textContent é usada para modificar o conteúdo desse parágrafo. 
 ```  let mensagem = document.getElementById('mensagem');```
 
 ```  mensagem.textContent = `Os valores digitados são: Nome - ${nome}, Email - ${email}`;```
-<<<<<<< HEAD
 
 4. <h2 align="center"> Atualizar o código JavaScript para somar duas variáveis numéricas e exibir no console </h2>
 
@@ -131,7 +129,7 @@ A propriedade textContent é usada para modificar o conteúdo desse parágrafo. 
 
 * Soma das variáveis:
 
-* A soma das variáveis é feita com a operação var soma = numero1 + numero2;.
+* A soma das variáveis é feita com a operação let soma = numero1 + numero2;.
 
 **Código:**
 
