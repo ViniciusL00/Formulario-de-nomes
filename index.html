@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de nomes</title>
+</head>
+<body>
+    <h1>Nomes</h1>
+
+    <!-- Formulário com campos de texto e botão -->
+
+    <form id="formularioNomes">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu email"><br><br>
+
+        <button type="button" onclick="mostrarValores()">Enviar</button>
+    </form>
+
+    <h2>Valores digitados</h2>
+    <p id=resultados></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
