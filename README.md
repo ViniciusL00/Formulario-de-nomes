@@ -96,3 +96,19 @@
 * Exibimos os valores no console usando console.log().
 
 * Também mostramos esses valores na página web dentro do elemento <p id="resultados">.
+
+3. <h2 align="center">Alterando o conteúdo do parágrafo com textContent: (Parte do desafio)</h2>
+
+Usamos document.getElementById('mensagem') para selecionar o parágrafo com o id mensagem.
+
+A propriedade textContent é usada para modificar o conteúdo desse parágrafo. O valor mostrado será a string com os valores de nome e email digitados.
+
+**Código:**
+
+```<p id="mensagem">Este texto será atualizado pelo JavaScript.</p> <!-- Parágrafo que será alterado para o desafio -->```
+
+```   // Modificar o conteúdo do parágrafo com id "mensagem" usando textContent```
+
+```  let mensagem = document.getElementById('mensagem');```
+
+```  mensagem.textContent = `Os valores digitados são: Nome - ${nome}, Email - ${email}`;```
