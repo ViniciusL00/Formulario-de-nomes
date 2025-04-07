@@ -99,9 +99,9 @@
 
 3. <h2 align="center">Alterando o conteúdo do parágrafo com textContent: (Parte do desafio)</h2>
 
-Usamos document.getElementById('mensagem') para selecionar o parágrafo com o id mensagem.
+* Usamos document.getElementById('mensagem') para selecionar o parágrafo com o id mensagem.
 
-A propriedade textContent é usada para modificar o conteúdo desse parágrafo. O valor mostrado será a string com os valores de nome e email digitados.
+* A propriedade textContent é usada para modificar o conteúdo desse parágrafo. O valor mostrado será a string com os valores de nome e email digitados.
 
 **Código:**
 
