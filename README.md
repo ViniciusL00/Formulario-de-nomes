@@ -1,5 +1,5 @@
 # Formulario-de-nomes
-<h1 align="center">Desafio para criar um formulário de nomes</h1>
+<h1 align="center">Desafio para criar um formulário de nomes.</h1>
 
 1. Criar o Formulário HTML
 
@@ -97,7 +97,7 @@
 
 * Também mostramos esses valores na página web dentro do elemento `<p id="resultados">`.
 
-3. <h2 align="center">Alterando o conteúdo do parágrafo com textContent: (Parte do desafio)</h2>
+3. <h2 align="center">Alterando o conteúdo do parágrafo com textContent: (Parte do desafio).</h2>
 
 Usamos document.getElementById('mensagem') para selecionar o parágrafo com o id mensagem.
 
@@ -113,7 +113,7 @@ A propriedade textContent é usada para modificar o conteúdo desse parágrafo. 
 
 ```  mensagem.textContent = `Os valores digitados são: Nome - ${nome}, Email - ${email}`;```
 
-4. <h2 align="center"> Atualizar o código JavaScript para somar duas variáveis numéricas e exibir no console </h2>
+4. <h2 align="center"> Atualizar o código JavaScript para somar duas variáveis numéricas e exibir no console. </h2>
 
 * Declaração das variáveis numéricas:
 
@@ -204,3 +204,41 @@ A propriedade textContent é usada para modificar o conteúdo desse parágrafo. 
 * Com frases.forEach(), percorremos cada frase do array gerado e a exibimos no console.
 
 * Usamos .trim() para remover quaisquer espaços em branco extras antes e depois de cada frase.
+
+6. <h2 align="center"> Adicionar um campo de entrada para os números. </h2>
+
+* 1. No código HTML, vamos adicionar um campo de entrada onde o usuário poderá digitar os números separados por vírgulas.
+
+**Código:**
+
+```    <label for="numeros">Números (separados por vírgula):</label>```
+
+```    <input type="text" id="numeros" name="numero" placeholder="Digite os números"><br><br>```
+
+* 2. Atualizar o JavaScript para processar a string de números.
+
+* Agora, vamos capturar a string contendo os números separados por vírgulas, e usar split(',') para dividir essa string em um array de números. Depois, vamos exibir cada número no console.
+
+**Código:**
+
+**Explicação da Atualização:**
+
+1. Campo de Números:
+
+* Adicionamos um novo campo de entrada HTML com o id numeros, onde o usuário pode digitar os números separados por vírgulas.
+
+2. Captura da String de Números:
+
+* No JavaScript, usamos document.getElementById('numeros').value para pegar o valor digitado no campo "numeros".
+
+3. Divisão da String com split(','):
+
+* O método split(',') é utilizado para separar a string de números nas vírgulas. Isso cria um array de números.
+
+* A string é dividida em cada ocorrência de vírgula.
+
+4. Exibição no Console:
+
+* Usamos forEach() para percorrer o array listaNumeros e exibir cada número no console.
+
+* O método .trim() é utilizado para remover espaços em branco extras antes e depois de cada número.

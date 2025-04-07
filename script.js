@@ -36,4 +36,16 @@ function mostrarValores() {
     frases.forEach(function(frase, index) {
     console.log(`Frase ${index + 1}: ${frase.trim()}`); // .trim() remove espaços extras
   });
+
+    // Capturar a string dos números separados por vírgula
+    let numeros = document.getElementById('numeros').value;
+
+    // Utilizar split() para dividir os números com base na vírgula
+    let listaNumeros = numeros.split(',');
+
+    // Exibir cada número no console
+    console.log('Os números separados são:');
+    listaNumeros.forEach(function(numero, index) {
+        console.log(`Número ${index + 1}: ${numero.trim()}`); // .trim() remove espaços extras
+      });
 }
