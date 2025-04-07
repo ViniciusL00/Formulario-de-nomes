@@ -55,7 +55,7 @@
 
 * O botão de envio chama a função JavaScript mostrarValores() quando clicado.
 
-* Também criamos um <p> com o id resultados, onde vamos exibir os valores na tela.
+* Também criamos um parágrafo com o id resultados, onde vamos exibir os valores na tela.
 
 2. Escrever o JavaScript:
 
@@ -96,6 +96,7 @@
 * Exibimos os valores no console usando console.log().
 
 * Também mostramos esses valores na página web dentro do elemento <p id="resultados">.
+<<<<<<< HEAD
 
 3. <h2 align="center">Alterando o conteúdo do parágrafo com textContent: (Parte do desafio)</h2>
 
@@ -105,10 +106,12 @@ A propriedade textContent é usada para modificar o conteúdo desse parágrafo. 
 
 **Código:**
 
-```<p id="mensagem">Este texto será atualizado pelo JavaScript.</p> <!-- Parágrafo que será alterado para o desafio -->```
+```id="mensagem">Este texto será atualizado pelo JavaScript.</p> <!-- Parágrafo que será alterado para o desafio -->```
 
 ```   // Modificar o conteúdo do parágrafo com id "mensagem" usando textContent```
 
 ```  let mensagem = document.getElementById('mensagem');```
 
 ```  mensagem.textContent = `Os valores digitados são: Nome - ${nome}, Email - ${email}`;```
+=======
+>>>>>>> 3f807143ff49b7bbb2649284ced694e811760021
