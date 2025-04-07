@@ -55,7 +55,7 @@
 
 * O botão de envio chama a função JavaScript mostrarValores() quando clicado.
 
-* Também criamos um <p> com o id resultados, onde vamos exibir os valores na tela.
+* Também criamos um paragráfo com o id resultados, onde vamos exibir os valores na tela.
 
 2. Escrever o JavaScript:
 
