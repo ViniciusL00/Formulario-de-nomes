@@ -24,4 +24,16 @@ function mostrarValores() {
 
     // Exibir o resultado da soma no console
     console.log(`A soma de ${numero1} e ${numero2} é igual a: ${soma}`);
+
+    // Capturar o valor das sentenças digitadas
+    let sentencas = document.getElementById('sentencas').value;
+
+    // Utilizar o split() para dividir as sentenças com base no ponto e vírgula
+    let frases = sentencas.split(';');
+
+    // Exibir cada sentença no console
+    console.log("As frases separadas são:");
+    frases.forEach(function(frase, index) {
+    console.log(`Frase ${index + 1}: ${frase.trim()}`); // .trim() remove espaços extras
+  });
 }

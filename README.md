@@ -150,3 +150,59 @@ A propriedade textContent é usada para modificar o conteúdo desse parágrafo. 
 ```    console.log(`A soma de ${numero1} e ${numero2} é igual a: ${soma}`);```
 
 * Aqui, *${numero1}, ${numero2} e ${soma} são placeholders que serão substituídos pelos valores das variáveis.*
+
+5. <h2 align="center"> Adicionar a funcionalidade de divisão de frases com split() </h2>
+
+* Vou adicionar um novo campo de entrada para receber as sentenças, e vamos processar a string com o método split() para quebrá-la em frases menores.
+
+**Código HTML Atualizado:**
+
+* 1. Adicionaremos um campo de texto para que o usuário possa digitar as sentenças separadas por ponto e vírgula.
+
+```    <label for="sentencas">Sentenças (separadas por ponto e vírgula):</label>```
+
+```    <input type="text" id="sentencas" name="sentencas" placeholder="Digite suas sentenças"><br><br>```
+
+2. Atualizar o JavaScript para processar as sentenças.
+
+**Código Javascript atualizado:**
+
+```    // Capturar o valor das sentenças digitadas```
+
+```    let sentencas = document.getElementById('sentencas').value;```
+
+```    // Utilizar o split() para dividir as sentenças com base no ponto e vírgula```
+
+```    let frases = sentencas.split(';');```
+
+```    // Exibir cada sentença no console```
+
+```    console.log("As frases separadas são:");```
+
+```    frases.forEach(function(frase, index) {```
+
+```    console.log(`Frase ${index + 1}: ${frase.trim()}`); // .trim() remove espaços extras```
+
+```  });```
+
+**Explicação da Atualização:**
+
+1. Campo de Sentenças:
+
+* Adicionamos um novo campo de entrada no HTML para o usuário digitar suas sentenças separadas por ponto e vírgula.
+
+2. Captura da String:
+
+* No JavaScript, usamos document.getElementById('sentencas').value para pegar o valor digitado pelo usuário no campo "sentenças".
+
+3. Divisão da String com split():
+
+* Usamos sentencas.split(';') para dividir a string nas frases, utilizando o ponto e vírgula como delimitador. Isso cria um array de frases.
+
+* O método split() divide a string em várias partes e retorna um array.
+
+4. Exibição no Console:
+
+* Com frases.forEach(), percorremos cada frase do array gerado e a exibimos no console.
+
+* Usamos .trim() para remover quaisquer espaços em branco extras antes e depois de cada frase.
